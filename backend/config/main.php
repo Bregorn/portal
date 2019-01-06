@@ -13,6 +13,9 @@ return [
     'bootstrap' => ['log'],
     'defaultRoute' => 'site/home',
     'modules' => [
+        'banner' => [
+            'class' => 'kouosl\banner\Module',
+        ],
         'site' => [
             'class' => 'kouosl\site\Module'   // here is our v1 modules
         ], 
